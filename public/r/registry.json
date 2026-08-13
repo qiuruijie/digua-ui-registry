@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
   "name": "digua",
-  "homepage": "https://github.com/your-org/digua-ui-registry",
+  "homepage": "https://github.com/qiuruijie/digua-ui-registry",
   "items": [
     {
       "name": "button",
@@ -11,6 +11,20 @@
       "files": [
         {
           "path": "registry/default/button/button.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "toast",
+      "type": "registry:ui",
+      "title": "Toast",
+      "description": "迪瓜 Toast 通知组件",
+      "dependencies": ["@base-ui/react", "lucide-react"],
+      "registryDependencies": ["button"],
+      "files": [
+        {
+          "path": "registry/default/toast/toast.tsx",
           "type": "registry:ui"
         }
       ]
