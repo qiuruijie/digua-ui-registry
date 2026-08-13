@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "button",
+  "title": "Button",
+  "description": "迪瓜自定义按钮组件",
+  "files": [
+    {
+      "path": "registry/default/button/button.tsx",
+      "content": "import * as React from \"react\"\n\nexport function Button(props: React.ComponentProps<\"button\">) {\n  return (\n    <button\n      {...props}\n      className=\"rounded-md bg-neutral-900 px-4 py-2 text-sm font-medium text-white hover:bg-neutral-800 transition-colors\"\n    />\n  )\n}\r\n",
+      "type": "registry:ui"
+    }
+  ],
+  "type": "registry:ui"
+}
