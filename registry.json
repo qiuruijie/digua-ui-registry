@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "digua",
+  "homepage": "https://github.com/your-org/digua-ui-registry",
+  "items": [
+    {
+      "name": "button",
+      "type": "registry:ui",
+      "title": "Button",
+      "description": "迪瓜自定义按钮组件",
+      "files": [
+        {
+          "path": "registry/default/button/button.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    }
+  ]
+}
